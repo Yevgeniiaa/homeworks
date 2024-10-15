@@ -17,15 +17,21 @@ function task2(){
     answers[1].textContent = number
 }
 
+
+
+let fullName = "Євгенія"
 function task3(){
-    let number = inputs[2].value;
-    let email = str.length(email)
-    answers[2].textContent = number
+    let fullName = inputs[2].value;
+    answers[2].textContent = "My name is " + fullName
 }
 
-let userName = ""
+
+
+let userName = name
+let  payment = number
+
 function task4(){
-    let number = inputs[3].value;
-    let email = str.length(email)
-    answers[3].textContent = number
+    let userName = inputs[3].value;
+    let  payment = inputs[4].value;
+    answers[3].textContent = "Дякуємо," + userName + "! До сплати " + payment + " гривень"
 }
